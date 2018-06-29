@@ -1,0 +1,36 @@
+{
+  "name": "@studio/log-topics",
+  "version": "0.0.0",
+  "description": "The topics used by Studio Log",
+  "scripts": {
+    "test": "eslint .",
+    "preversion": "npm test",
+    "version": "changes --commits",
+    "postversion": "git push --follow-tags && npm publish"
+  },
+  "keywords": [
+    "log",
+    "emoji",
+    "topics"
+  ],
+  "author": "Maximilian Antoni <max@javascript.studio>",
+  "homepage": "https://github.com/javascript-studio/studio-log-topics",
+  "eslintConfig": {
+    "extends": "@studio"
+  },
+  "devDependencies": {
+    "@studio/changes": "^1.5.0",
+    "@studio/eslint-config": "^1.0.2",
+    "eslint": "^4.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javascript-studio/studio-log-topics.git"
+  },
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "license": "MIT"
+}
