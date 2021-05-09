@@ -7,6 +7,7 @@
 
 module.exports = {
   ok: '✅',
+  info: 'ℹ️',
   warn: '⚠️ ',
   error: '🚨',
   issue: '🐛',
@@ -25,5 +26,6 @@ module.exports = {
   timing: '⏱ ',
   money: '💰',
   numbers: '🔢',
-  wtf: '👻'
+  wtf: '👻',
+  debug: '🐛'
 };
